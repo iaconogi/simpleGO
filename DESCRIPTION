@@ -1,0 +1,17 @@
+Package: simpleGO
+Type: Package
+Title: A pacakge for simple and quick GO analysis with functional
+        clustering.
+Version: 1.0
+Date: 2019-01-31
+Author: Giovanni Iacono
+Maintainer: Giovanni Iacono <gio.iacono.work@gmail.com>
+Description: A pacakge for simple and quick GO analysis with functional clustering.
+License: GPL (>= 2)
+Imports: philentropy, zoo, Matrix,
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2019-06-06 09:17:37 UTC; admin
+Depends: R (>= 3.5.0)
