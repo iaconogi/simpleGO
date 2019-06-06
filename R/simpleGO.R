@@ -82,6 +82,13 @@ p.val=p.val[significant]
 samp.hits=samp.hits[significant]
 pop.hits=pop.hits[significant]
 ix=order(p.val)
+
+if (length(ix)>1000)
+{
+  print('More than 1000 GO terms enriched, considering only 500')
+  ix=ix[1:1000]
+}
+
 p.val=p.val[ix]
 samp.hits=samp.hits[ix]
 pop.hits=pop.hits[ix]
