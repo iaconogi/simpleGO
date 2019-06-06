@@ -26,7 +26,7 @@ Metric: 'jaccard'; comparing: 58 vectors.
 [1] "Divided the 58 enriched GO terms into 4 distinct functional groups"
 ``` 
 
-To facilitate the interpretation of the GO enrichments, simpleGO collapses the enriched terms into functional groups. The output of simpleGOis a list as long as the numeber of functional groups. In this case we have 4 distinct functional groups.
+To facilitate the interpretation of the GO enrichments, simpleGO collapses the enriched terms into functional groups. The output of simpleGOis a list as long as the number of functional groups. In this case we have 4 distinct functional groups.
 Let's look the first one:
 
 ```{r}
@@ -47,5 +47,5 @@ With the option `excel.export = file name` you can automatically save the result
 
 
 <br />
-The help of the function `simpleGO` (F1 key in Rstudio) further explains how to change the cutoff for the p-values (setting `p`), how to use a custom background (setting `background`) and how to increase the number of the recognized IDs (setting `use.synonims`).
+The help of the function simpleGO (F1 key in Rstudio) further explains how to change the cutoff for the p-values (setting `p`), how to use a custom background (setting `background`) and how to increase the number of the recognized IDs (setting `use.synonims`).
 
