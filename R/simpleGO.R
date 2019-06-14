@@ -34,7 +34,7 @@ else
 
 
 
-if (species=='human')
+if (species=='Human')
   {
   print('Loading human data')
   data(human_matrix)
